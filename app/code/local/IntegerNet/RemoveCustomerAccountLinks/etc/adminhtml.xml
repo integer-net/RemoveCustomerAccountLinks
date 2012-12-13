@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <removecustomeraccountlinks translate="title" module="removecustomeraccountlinks">
+                                        <title>Remove Customer Account Links</title>
+                                    </removecustomeraccountlinks>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
