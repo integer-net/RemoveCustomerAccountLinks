@@ -1,0 +1,22 @@
+{
+    "name":"integer-net/removecustomeraccountlinks",
+    "type":"magento-module",
+    "license":"OSL-3.0",
+    "homepage":"https://github.com/integer-net/RemoveCustomerAccountLinks",
+    "description":"Removes customer account links in Magento.",
+    "authors":[
+        {
+            "name":"Christian Philipp"
+        }
+    ],
+    "require":{
+        "magento-hackathon/magento-composer-installer":"dev-master"
+    },
+    "extra":{
+        "map": [
+                ["app/code/community/IntegerNet/RemoveCustomerAccountLinks", "app/code/community/IntegerNet/RemoveCustomerAccountLinks"],
+                ["app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml", "app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml"],
+                ["app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv", "app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv"]
+        ]
+    }
+}
