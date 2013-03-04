@@ -1,4 +1,12 @@
 <?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category    IntegerNet
+ * @package     IntegerNet_RemoveCustomerAccountLinks
+ * @author      Christian Philipp <cp@integer-net.de>
+ */
+-->
 <config>
     <acl>
         <resources>

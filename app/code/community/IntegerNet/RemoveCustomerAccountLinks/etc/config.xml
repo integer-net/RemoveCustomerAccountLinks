@@ -1,4 +1,12 @@
 <?xml version="1.0"?>
+<!--
+/**
+*
+* @category    IntegerNet
+* @package     IntegerNet_RemoveCustomerAccountLinks
+* @author      Christian Philipp <cp@integer-net.de>
+*/
+-->
 <config>
     <modules>
         <IntegerNet_RemoveCustomerAccountLinks>
@@ -46,26 +54,6 @@
     </adminhtml>
     <default>
         <removecustomeraccountlinks>
-            <version_link>
-                <v15>
-                    <item>
-                        <name>recurring_profiles,billing_agreements,reviews,tags,newsletter,downloadable_products,account,account_edit,address_book,orders,wishlist</name>
-                        <label>sales:Recurring Profiles,sales:Billing Agreements,My Product Reviews,My Tags,Newsletter Subscriptions,My Downloadable Products,Account Dashboard,Account Information,Address Book,sales:My Orders,My Wishlist</label>
-                    </item>
-                </v15>
-                <v16>
-                    <item>
-                        <name>recurring_profiles,billing_agreements,reviews,tags,newsletter,downloadable_products,account,account_edit,address_book,orders,wishlist</name>
-                        <label>sales:Recurring Profiles,sales:Billing Agreements,My Product Reviews,My Tags,Newsletter Subscriptions,My Downloadable Products,Account Dashboard,Account Information,Address Book,sales:My Orders,My Wishlist</label>
-                    </item>
-                </v16>
-                <v17>
-                    <item>
-                        <name>recurring_profiles,billing_agreements,reviews,tags,newsletter,downloadable_products,account,account_edit,address_book,orders,wishlist,OAuth Customer Tokens</name>
-                        <label>sales:Recurring Profiles,sales:Billing Agreements,My Product Reviews,My Tags,Newsletter Subscriptions,My Downloadable Products,Account Dashboard,Account Information,Address Book,sales:My Orders,My Wishlist,oauth:My Applications</label>
-                    </item>
-                </v17>
-            </version_link>
             <settings>
                 <remove><!-- no default page is hidden--></remove>
             </settings>
