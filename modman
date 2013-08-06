@@ -1,0 +1,3 @@
+app/code/community/IntegerNet/RemoveCustomerAccountLinks/   app/code/community/IntegerNet/RemoveCustomerAccountLinks/
+app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml   app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml
+app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv  app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv
