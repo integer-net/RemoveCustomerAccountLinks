@@ -20,21 +20,24 @@ Requirements
 - PHP >= 5.2.0
 - PHP <= 7.9.9
 
-
 Compatibility
 -------------
 - Magento >= 1.5
 
 Installation Instructions
 -------------------------
-1. Install the extension by copying all the files into your document root.
+1. Install the extension by copying all the files into your Magento document root.
 2. Clear the cache, logout from the admin panel and then login again.
-3. Configure the extension under System - Configuration - Remove Customer Account Links
+3. Configure the extension under System -> Configuration -> (Customers)Remove Customer Account Links
 4. Choose menu points, which should NOT be shown
 
 Uninstallation
 --------------
 1. Remove all extension files from your Magento installation
+  - app/code/community/IntegerNet/RemoveCustomerAccountLinks
+  - app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml
+  - app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv
+  - app/locale/en_US/IntegerNet_RemoveCustomerAccountLinks.csv
 
 Support
 -------
@@ -47,8 +50,10 @@ Any contribution is highly appreciated. The best way to contribute code is to op
 Developer
 ---------
 Christian Philipp
-[http://www.integer-net.de](http://www.integer-net.de)
-[@integer_net](https://twitter.com/integer_net)
+Viktor Franz
+
+WWW: [http://www.integer-net.de/](http://www.integer-net.de/)
+Twitter [@integer_net](https://twitter.com/integer_net)
 
 Licence
 -------
