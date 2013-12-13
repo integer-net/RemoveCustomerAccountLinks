@@ -5,7 +5,7 @@ Removes customer account links in Magento.
 
 Facts
 -----
-- version: 1.0.0.0
+- version: 1.1.0.0
 - extension key: IntegerNet_RemoveCustomerAccountLinks
 - [extension on GitHub](https://github.com/integer-net/RemoveCustomerAccountLinks)
 
@@ -13,7 +13,7 @@ Description
 -----------
 Removes customer account links in Magento.
 With this easy to install extension, you can switch off the default menu points in frontend user account easily by click n go in magento backend.
-The module distinguishes between magento ce version 1.5, 1.6 and 1.7. In Backend, default menu points are shown only. You can fill these up with manual pages you created by changing the config.xml. If you do, be careful with updating this module!!!
+The module distinguishes between magento ce version 1.5, 1.6, 1.7 and 1.8.
 
 Requirements
 ------------
@@ -56,4 +56,4 @@ Licence
 
 Copyright
 ---------
-(c) 2012 integer_net GmbH
+(c) 2013 integer_net GmbH
