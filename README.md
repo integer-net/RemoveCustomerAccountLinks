@@ -49,10 +49,10 @@ Any contribution is highly appreciated. The best way to contribute code is to op
 
 Developer
 ---------
-Christian Philipp
+Christian Philipp<br />
 Viktor Franz
 
-WWW: [http://www.integer-net.de/](http://www.integer-net.de/)
+WWW: [http://www.integer-net.de/](http://www.integer-net.de/)<br />
 Twitter [@integer_net](https://twitter.com/integer_net)
 
 Licence
