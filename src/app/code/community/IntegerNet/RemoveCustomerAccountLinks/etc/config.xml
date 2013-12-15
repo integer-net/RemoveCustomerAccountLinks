@@ -18,7 +18,7 @@
 <config>
     <modules>
         <IntegerNet_RemoveCustomerAccountLinks>
-            <version>1.1.0.0</version>
+            <version>2.0.0.0</version>
         </IntegerNet_RemoveCustomerAccountLinks>
     </modules>
     <global>
@@ -30,25 +30,16 @@
             </customer>
         </blocks>
         <helpers>
-            <removecustomeraccountlinks>
+            <integernet_removecustomeraccountlinks>
                 <class>IntegerNet_RemoveCustomerAccountLinks_Helper</class>
-            </removecustomeraccountlinks>
+            </integernet_removecustomeraccountlinks>
         </helpers>
         <models>
-            <removecustomeraccountlinks>
+            <integernet_removecustomeraccountlinks>
                 <class>IntegerNet_RemoveCustomerAccountLinks_Model</class>
-            </removecustomeraccountlinks>
+            </integernet_removecustomeraccountlinks>
         </models>
     </global>
-    <frontend>
-        <layout>
-            <updates>
-                <integernet_navigation>
-                    <file>integernet_navigation.xml</file>
-                </integernet_navigation>
-            </updates>
-        </layout>
-    </frontend>
     <adminhtml>
         <translate>
             <modules>
@@ -61,10 +52,10 @@
         </translate>
     </adminhtml>
     <default>
-        <removecustomeraccountlinks>
-            <settings>
-                <remove><!-- no default page is hidden--></remove>
-            </settings>
-        </removecustomeraccountlinks>
+        <customer>
+            <integernet_removecustomeraccountlinks>
+                <items />
+            </integernet_removecustomeraccountlinks>
+        </customer>
     </default>
 </config>

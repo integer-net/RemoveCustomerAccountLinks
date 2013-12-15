@@ -30,10 +30,10 @@
     },
     "extra": {
         "map": [
-            ["app/code/community/IntegerNet/RemoveCustomerAccountLinks", "app/code/community/IntegerNet/RemoveCustomerAccountLinks"],
-            ["app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml", "app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml"],
-            ["app/locale/de_DE/IntegerNet_RemooveCustomerAccountLinks.csv", "app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv"],
-            ["app/locale/en_US/IntegerNet_RemooveCustomerAccountLinks.csv", "app/locale/en_US/IntegerNet_RemoveCustomerAccountLinks.csv"]
+            ["src/app/code/community/IntegerNet/RemoveCustomerAccountLinks", "app/code/community/IntegerNet/RemoveCustomerAccountLinks"],
+            ["src/app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml", "app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml"],
+            ["src/app/locale/de_DE/IntegerNet_RemooveCustomerAccountLinks.csv", "app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv"],
+            ["src/app/locale/en_US/IntegerNet_RemooveCustomerAccountLinks.csv", "app/locale/en_US/IntegerNet_RemoveCustomerAccountLinks.csv"]
         ],
         "magento_connect": {
             "name": "IntegerNet_RemoveCustomerAccountLinks",

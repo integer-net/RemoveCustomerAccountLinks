@@ -13,14 +13,13 @@
 /**
  * Enter description here ...
  */
-class IntegerNet_RemoveCustomerAccountLinks_Model_System_Source_Item
+class IntegerNet_RemoveCustomerAccountLinks_Model_System_Source_Link
 {
     /**
      * @return array
      */
     public function toOptionArray()
     {
-
         $options = array(array(
             'value' => '-',
             'label' => '',

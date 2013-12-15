@@ -15,8 +15,14 @@
  */
 class IntegerNet_RemoveCustomerAccountLinks_Helper_Data extends Mage_Core_Helper_Abstract
 {
+
     /**
-     *
+     * @param mixed $store
+     * @return array
      */
-    const XML_PATH_REMOVECUSTOMERACCOUNTLINKS_SETTINGS_REMOVE = 'removecustomeraccountlinks/settings/remove';
+    public function getNavigationLinksToRemove($store = null)
+    {
+        $items = Mage::getStoreConfig('customer/integernet_removecustomeraccountlinks/items', $store);
+        return explode(',', $items);
+    }
 }

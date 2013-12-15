@@ -20,15 +20,8 @@ class IntegerNet_RemoveCustomerAccountLinks_Block_Navigation extends Mage_Custom
      */
     public function removeLink()
     {
-        /*
-         * hide account links choosen in backend configuration
-         */
-
-        $pages = Mage::getStoreConfig(IntegerNet_RemoveCustomerAccountLinks_Helper_Data::XML_PATH_REMOVECUSTOMERACCOUNTLINKS_SETTINGS_REMOVE);
-        $pagesArray = explode(',', $pages);
-
-        foreach ($pagesArray as $name) {
-            unset($this->_links[$name]);
+        foreach (Mage::helper('integernet_removecustomeraccountlinks')->getNavigationLinksToRemove() as $link) {
+            unset($this->_links[$link]);
         }
 
         return $this;
