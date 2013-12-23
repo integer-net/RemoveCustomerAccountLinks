@@ -21,6 +21,11 @@ Requirements
 
 Compatibility
 -------------
+- Magento 1.4.0.0
+- Magento 1.4.0.1
+- Magento 1.4.1.0
+- Magento 1.4.1.1
+- Magento 1.4.2.0
 - Magento 1.5.0.1
 - Magento 1.5.1.0
 - Magento 1.6.0.0
