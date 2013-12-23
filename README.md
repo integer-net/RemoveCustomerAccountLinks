@@ -12,7 +12,7 @@ Facts
 
 Description
 -----------
-Removes customer account links in Magento.
+Removes customer account links in Magento.  
 With this easy to install extension, you can switch off the menu points in frontend user account easily by select in magento backend.
 
 Requirements
@@ -40,9 +40,9 @@ Compatibility
 
 Installation Instructions
 -------------------------
-1. Install the extension by copying all **app** files into your Magento document root.
+1. Install the extension by copying the `app` directory into your Magento document root.
 2. Clear the cache.
-3. Configure the extension under *System >> Configuration >> Customer Configuration >> Customer Account Links*.
+3. Configure the extension under ***System >> Configuration >> Customer Configuration >> Customer Account Links***.
 4. Choose menu points, which should not be shown.
 
 Uninstallation
@@ -64,10 +64,10 @@ Any contribution is highly appreciated. The best way to contribute code is to op
 
 Developer
 ---------
-Christian Philipp<br />
+Christian Philipp  
 Viktor Franz
 
-WWW: [http://www.integer-net.de/](http://www.integer-net.de/)<br />
+WWW [http://www.integer-net.de/](http://www.integer-net.de/)  
 Twitter [@integer_net](https://twitter.com/integer_net)
 
 Licence
