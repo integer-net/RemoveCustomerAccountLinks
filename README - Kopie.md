@@ -7,13 +7,12 @@ Facts
 -----
 - version: 2.0.0.0
 - extension key: IntegerNet_RemoveCustomerAccountLinks
-- extension on [GitHub](https://github.com/integer-net/RemoveCustomerAccountLinks)
-- extension on [Magento Connect](http://www.magentocommerce.com/magento-connect/remove-customer-account-links-5854.html)
+- [extension on GitHub](https://github.com/integer-net/RemoveCustomerAccountLinks)
 
 Description
 -----------
 Removes customer account links in Magento.
-With this easy to install extension, you can switch off the menu points in frontend user account easily by select in magento backend.
+With this easy to install extension, you can switch off the default menu points in frontend user account easily by click n go in magento backend.
 
 Requirements
 ------------
@@ -40,19 +39,18 @@ Compatibility
 
 Installation Instructions
 -------------------------
-1. Install the extension by copying all **app** files into your Magento document root.
+1. Install the extension by copying all the files into your Magento document root.
 2. Clear the cache.
-3. Configure the extension under *System >> Configuration >> Customer Configuration >> Customer Account Links*.
-4. Choose menu points, which should not be shown.
+3. Configure the extension under *System >> Configuration >> Customer Configuration >> Customer Account Links*
+4. Choose menu points, which should NOT be shown
 
 Uninstallation
 --------------
 1. Remove all extension files from your Magento installation
- - app/code/community/IntegerNet/RemoveCustomerAccountLinks
- - app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml
- - app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv
- - app/locale/en_US/IntegerNet_RemoveCustomerAccountLinks.csv
-2. Clear the cache.
+  - app/code/community/IntegerNet/RemoveCustomerAccountLinks
+  - app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml
+  - app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv
+  - app/locale/en_US/IntegerNet_RemoveCustomerAccountLinks.csv
 
 Support
 -------
