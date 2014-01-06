@@ -1,0 +1,2 @@
+Q:Why doesn't the extension work with my custom theme?<br />
+A:Please make sure that the custom theme you are using does not override Magento's default customer account links block. The extension will not work with custom blocks.</p>
