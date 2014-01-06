@@ -39,6 +39,16 @@
                 <class>IntegerNet_RemoveCustomerAccountLinks_Model</class>
             </integernet_removecustomeraccountlinks>
         </models>
+        <resources>
+            <integernet_rmca_setup>
+                <setup>
+                    <module>IntegerNet_RemoveCustomerAccountLinks</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </integernet_rmca_setup>
+        </resources>
     </global>
     <adminhtml>
         <translate>
