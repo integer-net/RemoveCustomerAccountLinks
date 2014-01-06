@@ -18,7 +18,7 @@ With this easy to install extension, you can switch off the menu points in front
 Requirements
 ------------
 - PHP >= 5.2.0
-- PHP <= 7.9.9
+- PHP <= 5.5.x
 
 Compatibility
 -------------
