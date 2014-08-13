@@ -37,6 +37,8 @@ Compatibility
 - Magento 1.7.0.2
 - Magento 1.8.0.0
 - Magento 1.8.1.0
+- Magento 1.9.0.0
+- Magento 1.9.0.1
 
 Installation Instructions
 -------------------------
