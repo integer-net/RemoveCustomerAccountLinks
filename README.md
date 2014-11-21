@@ -5,7 +5,7 @@ Removes customer account links in Magento.
 
 Facts
 -----
-- version: 2.0.0.0
+- version: 2.0.0.2
 - extension key: IntegerNet_RemoveCustomerAccountLinks
 - extension on [GitHub](https://github.com/integer-net/RemoveCustomerAccountLinks)
 - extension on [Magento Connect](http://www.magentocommerce.com/magento-connect/remove-customer-account-links-5854.html)
@@ -78,4 +78,4 @@ Licence
 
 Copyright
 ---------
-(c) 2013 integer_net GmbH
+(c) 2013-2014 integer_net GmbH
