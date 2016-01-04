@@ -53,7 +53,7 @@ class IntegerNet_RemoveCustomerAccountLinks_Model_System_Source_Link
         /**
          * Fetch all links from customer account navigation block
          */
-        foreach (Mage::app()->getStores() as $store) {
+        foreach (Mage::app()->getStores(true) as $store) {
 
             Mage::app()->setCurrentStore($store->getId());
             Mage::unregister('_singleton/core/design_package');
