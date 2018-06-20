@@ -18,7 +18,7 @@ class IntegerNet_RemoveCustomerAccountLinks_Block_Navigation extends Mage_Custom
     /**
      * @return $this
      */
-    public function removeLink()
+    public function removeLink($name)
     {
         foreach (Mage::helper('integernet_removecustomeraccountlinks')->getNavigationLinksToRemove() as $link) {
             unset($this->_links[$link]);
