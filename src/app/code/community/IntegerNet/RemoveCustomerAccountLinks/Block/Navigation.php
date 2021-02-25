@@ -16,9 +16,10 @@
 class IntegerNet_RemoveCustomerAccountLinks_Block_Navigation extends Mage_Customer_Block_Account_Navigation
 {
     /**
+     * @param null $name
      * @return $this
      */
-    public function removeLink()
+    public function removeLink($name=null)
     {
         foreach (Mage::helper('integernet_removecustomeraccountlinks')->getNavigationLinksToRemove() as $link) {
             unset($this->_links[$link]);
